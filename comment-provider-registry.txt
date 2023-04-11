@@ -1,0 +1,2 @@
+sed -i 's/org.apache.nifi.registry.provider.flow.FileSystemFlowPersistenceProvider/org.apache.nifi.registry.provider.flow.DatabaseFlowPersistenceProvider/g' providers.xml
+sed -i  "/\<Flow Storage Directory\>/d" providers.xml
